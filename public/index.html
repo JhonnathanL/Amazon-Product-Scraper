@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Product Scraper</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+            <h1>Amazon Product Scraper</h1>
+          </a>
+          </li>
+          <li>
+            <h2>Enter keyword:</h2>
+            <input type="text" id="keyword" />
+            <button onclick="getAmazonData()">Search on Amazon</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="search">
+      <h1>Search for a Product ...</h1>
+    </div>
+    <div id="results">
+      <!-- the results will be placed here, they are placed by Onclick=getAmazonData() -->
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
